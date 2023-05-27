@@ -1,0 +1,1 @@
+function count() {var count = document.getElementById('count');count.textContent = parseInt(count.textContent) + 1;}

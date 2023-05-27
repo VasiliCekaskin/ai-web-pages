@@ -1,0 +1,73 @@
+// Answer in JSON for example:
+
+// Example A:
+{
+  "projectName": "project_name",
+  "files": {
+    "index.html": {
+      "input": "<html>'Hello World'</html>",
+      "dir": "src"
+    },
+    "css.html": {
+      "input": "div { color: red; }",
+      "dir": "src"
+    },
+    "js.html": {
+      "input": "console.log('Hello World')",
+      "dir": "src"
+    },
+    "run.sh": {
+      "input": "bin/bash open index.html",
+      "dir": "src"
+    }
+  }
+}
+
+
+// Example A:
+{
+  "projectName": "project_name",
+  "files": {
+    "index.html": {
+      "input": "<html>'Hello World'</html>",
+      "dir": "src"
+    },
+    "another_page.html": {
+      "input": "<html>'Hello World'</html>",
+      "dir": "src"
+    },
+    "css.html": {
+      "input": "div { color: red; }",
+      "dir": "src"
+    },
+    "index.html": {
+      "input": "<html>'Hello World'</html>",
+      "dir": "src"
+    },
+    "another_css.html": {
+      "input": "div { color: red; }",
+      "dir": "src"
+    },
+    "js.html": {
+      "input": "console.log('Hello World')",
+      "dir": "src"
+    },
+    "run.sh": {
+      "input": "bin/bash open index.html",
+      "dir": "src"
+    },
+		"run.md":{
+			"input": "## running\n some running instruction \n\n ```\n bin/bash open index.html \n ```",
+			"dir": "src"
+		}
+  }
+}
+
+Start from now on directly ONLY answer in JSON:
+
+Create a json response like in the example to create 
+
+an express app where you can move around some random figure
+
+// An example command line command would be:
+// "youtube-dl https://www.youtube.com/watch\?v\=Z3Oux1lN__4 --yes-playlist --extract-audio --audio-format mp3"
