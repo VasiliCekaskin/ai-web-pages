@@ -1,3 +1,0 @@
-body { margin: 0; }
-h1 { text-align: center; margin-top: 50px; }
-.figure { width: 50px; height: 50px; background-color: blue; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); }
